@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>EDUCA - Página Principal</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://use.fontawesome.com/40346b213a.js"></script>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/flexbox.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+  <header class="header-menu-principal">
+
+    <div class="container">
+      <a href="index.html"><img class="img-logo" src="imagens/Educa-grande-azul.png" alt="Logo Educa"></a>
+      <!--Menu principal -->
+      <nav class="nav-links">
+        <a class="nav-link" href="#">Português</a>
+        <a class="nav-link" href="#">Língua Estrangeira</a>
+        <a class="nav-link" href="#">Redação</a>
+        <a class="nav-link" href="#">Matemática</a>
+        <a class="nav-link" href="cienciasHumanas.html">Ciências Humanas</a>
+        <a class="nav-link" href="#">Ciências da Natureza</a>
+        <a class="nav-link nav-link-perfil" href="#">Meu Perfil</a>
+      </nav>
+    </div>
+
+  </header>
+
+  <main>
+
+    <!--CAROUSEL-->
+    <div id="carouselControl" class="carousel slide carousel-fade" data-ride="carousel">
+      <!--Indicadores-->
+      <ol class="carousel-indicators">
+        <li data-target="#carouselControl" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselControl" data-slide-to="1"></li>
+        <li data-target="#carouselControl" data-slide-to="2"></li>
+      </ol>
+      <!--Imagens-->
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="6000">
+          <img class="d-block w-100" src="https://i.imgur.com/MBqX7Ir.jpg" style="height: 400px;" alt="First slide">
+        </div>
+        <div class="carousel-item" data-interval="6000">
+          <img class="d-block w-100" src="https://i.imgur.com/Wwj8quZ.jpg" style="height: 400px;" alt="Second slide">
+        </div>
+        <div class="carousel-item" data-interval="6000">
+          <img class="d-block w-100" src="https://i.imgur.com/HD4a3Kc.jpg" style="height: 400px;" alt="Third slide">
+        </div>
+      </div>
+      <!--Controle-->
+      <a class="carousel-control-prev" href="#carouselControl" role="button" data-slide="prev">
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselControl" role="button" data-slide="next">
+        <span class="sr-only">Next</span>
+      </a>
+
+    </div>
+
+
+
+    <div class="main">
+
+      <!--Filtros -->
+      <div class="filtros">
+
+        <h1>O que eu vou aprender hoje?</h1>
+
+        <div class="filtro-cores">
+          <a class="filtro-rosa" href="#">Tudo</a>
+          <a class="filtro-verde" href="#">Álgebra</a>
+          <a class="filtro-laranja" href="#">Literatura</a>
+          <a class="filtro-amarelo" href="#">Função</a>
+          <a class="filtro-lilas" href="#">Brasil Colônia</a>
+          <a class="filtro-rosa" href="#">Imigração</a>
+          <a class="filtro-laranja" href="#">Literatura</a>
+          <a class="filtro-amarelo" href="#">Função</a>
+          <a class="filtro-lilas" href="#">Brasil Colônia</a>
+          <a class="filtro-verde" href="#">Álgebra</a>
+          <a class="filtro-laranja" href="#">Literatura</a>
+          <a class="filtro-verde" href="#">Álgebra</a>
+          <a class="filtro-lilas" href="#">Brasil Colônia</a>
+        </div>
+
+        <div class="filtro-busca">
+          <input class="input-busca" type="search" name="input" placeholder="Outros conteúdos">
+          <button class="btn-busca" type="submit"><img class="img-busca" src="imagens/busca.png"></button>
+        </div>
+      </div>
+
+      <!--Lista Top professores -->
+      <div class="container professor">
+        <h2 class="titulo-secao">Top professores:</h2>
+        <div class="lista-professores">
+          <div class="box-conteudo">
+            <a href="perfilProfessor.html"><img class="img-conteudo" src="imagens/avatar1.jpg"
+                alt="Imagem professor"></a>
+            <p class="conteudo-descricao">Amanda, Geografia</p>
+            <a class="link-prof" href="perfilProfessor.html">Acessar conteúdo</a>
+          </div>
+          <div class="box-conteudo">
+            <a href="perfilProfessor.html"><img class="img-conteudo" src="imagens/avatar2.jpg"
+                alt="Imagem professor"></a>
+            <p class="conteudo-descricao">Ana, Redação</p>
+            <a class="link-prof" href="perfilProfessor.html">Acessar conteúdo</a>
+          </div>
+          <div class="box-conteudo">
+            <a href="perfilProfessor.html"><img class="img-conteudo" src="imagens/avatar3.jpg"
+                alt="Imagem professor"></a>
+            <p class="conteudo-descricao">Fernando, Física</p>
+            <a class="link-prof" href="perfilProfessor.html">Acessar conteúdo</a>
+          </div>
+          <div class="box-conteudo">
+            <a href="perfilProfessor.html"><img class="img-conteudo" src="imagens/avatar4.jpg"
+                alt="Imagem professor"></a>
+            <p class="conteudo-descricao">Marcela, Matemática</p>
+            <a class="link-prof" href="perfilProfessor.html">Acessar conteúdo</a>
+          </div>
+          <div class="box-conteudo">
+            <a href="perfilProfessor.html"><img class="img-conteudo" src="imagens/avatar5.jpg"
+                alt="Imagem professor"></a>
+            <p class="conteudo-descricao">Pedro, História</p>
+            <a class="link-prof" href="perfilProfessor.html">Acessar conteúdo</a>
+          </div>
+        </div>
+      </div>
+
+      <!--Lista Top conteúdos recorrentes -->
+      <div class="container conteudo">
+        <h2 class="titulo-secao">Top conteúdos recorrentes:</h2>
+        <div class="lista-conteudo-recorrente">
+          <div class="box-conteudo">
+            <img class="img-conteudo" src="imagens/assunto1.jpg" alt="Conteudo">
+            <p class="conteudo-descricao">Brasil Colônia</p>
+          </div>
+          <div class="box-conteudo">
+            <img class="img-conteudo" src="imagens/assunto2.jpg" alt="Conteudo">
+            <p class="conteudo-descricao">Globalização</p>
+          </div>
+          <div class="box-conteudo">
+            <img class="img-conteudo" src="imagens/assunto3.jpg" alt="Conteudo">
+            <p class="conteudo-descricao">Literatura de Cordel</p>
+          </div>
+          <div class="box-conteudo">
+            <img class="img-conteudo" src="imagens/assunto4.jpg" alt="Conteudo">
+            <p class="conteudo-descricao">Elementos Químicos</p>
+          </div>
+          <div class="box-conteudo">
+            <img class="img-conteudo" src="imagens/assunto5.jpg" alt="Conteudo">
+            <p class="conteudo-descricao">Equações de 2º Grau</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </main>
+  
+  <footer><!--Rodapé da página-->
+  <div class="container conteudo-footer">
+    <div class="redes-contato">
+      <h6>Nossas redes:</h6>
+        <a class="link-contato" href="http://instagram.com"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i> @Educa</a>
+        <a class="link-contato" href="http://facebook.com"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i> Educa</a>
+        <a class="link-contato" href="http://linkdin.com"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i> Educa</a>
+    </div>
+    <div class="links-faq">
+      <a href="#"><h6>Perguntas Frequentes</h6></a>
+      <a class="link-faq" href="#">O que é o NIS?</a>
+      <a class="link-faq" href="#">Como saber se tenho direito à gratuidade?</a>
+      <a class="link-faq" href="#">Consultar todas as perguntas ></a>
+    </div>
+    <div class="parceiros">
+        <a href="#"><h6>Universidades Parceiras:</h6></a>
+        <a class="link-universidade" href="#">Universidade Federal do Rio de Janeiro</a>
+        <a class="link-universidade" href="#">Universidade Estadual do Rio de Janeiro</a>
+        <a class="link-universidade" href="#">Consultar todas as parcerias ></a>
+    </div>
+  </div>
+  </footer>
+</body>
+
+</html>

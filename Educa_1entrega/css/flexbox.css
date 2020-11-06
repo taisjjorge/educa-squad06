@@ -1,0 +1,164 @@
+
+/* Estilizando Header */
+.header-menu-principal .container  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main .filtros {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filtros-pgDisciplina {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav-links {
+    display: flex;
+}
+
+
+/* Estilizando Main */
+
+.container-fluid {
+    padding-right: 0px; 
+    padding-left: 0px;
+}
+
+main h1 {
+    text-align: center;
+    color:rgb(51, 50, 50);
+    margin-top:80px;
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.titulo-secao {
+    display: flex;
+    justify-items: left;
+}
+
+.lista-professores {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lista-conteudo-recorrente {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Estilizando Footer */
+
+.conteudo-footer{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.redes-contato, .parceiros, .links-faq {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*Fim Footer */
+
+/* Responsividade mobile */
+
+@media(max-width: 600px) {
+
+    .img-logo {
+       align-self: center;
+       margin-bottom: 10px;
+    }
+
+    .header-menu-principal .container{
+        display: flex;
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .nav-link {
+        margin-bottom: 5px;
+    }
+
+}
+
+.perfil-professor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-professor {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.info-professor{
+    display:flex;
+    flex-direction: column;
+}
+
+.info-contato-professor {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+}
+
+
+.prof-links-externos {
+    display: flex;
+    align-items: center;
+}
+
+.prof-links-externos a {
+    margin-right: 5px;
+}
+
+.busca-professor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Pagina disciplinas*/
+
+.box-titulo-disciplina {
+    display: flex;
+    align-items: center;
+}
+
+.titulo-disciplina {
+    width: 480px;
+}

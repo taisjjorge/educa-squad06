@@ -1,0 +1,355 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilizando Header */
+
+.header-menu-principal {
+    padding: 10px;
+}
+
+.img-logo{
+    width: 150px;
+}
+
+.nav-link {
+    text-decoration: none;
+    margin-right: 5px;
+    color: rgba(104, 104, 104, 0.6);
+    background-color: #FFF;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #9799A6; 
+}
+
+.nav-link:hover {
+    color: #FFF;
+    background-color: rgba(104, 104, 104, 0.6);
+}
+
+.nav-link-perfil {
+    background-color: #00474B;
+    color:#ffffff;   
+    border: 1px solid #00474B; 
+}
+
+/* Estilizando Main - Busca */
+
+.main .filtros {
+    background-color: #F2F5F7;
+}
+
+.filtro-cores {
+    width: 70%;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+}
+
+.filtro-rosa {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    color: #FF0099;
+    font-weight: bold;
+    background-color: #FFF;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 2px solid #FF0099;   
+}
+
+.filtro-rosa:hover {
+    color: #FFF;
+    background-color:#FF0099;
+    text-decoration: none;
+}
+
+.filtro-verde {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    color: #83F52C;
+    font-weight: bold;
+    background-color: #FFF;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 2px solid #83F52C;   
+}
+
+.filtro-verde:hover {
+    color: #FFF;
+    background-color:#83F52C;
+    text-decoration: none;
+}
+
+.filtro-laranja {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    color: #FF6600;
+    font-weight: bold;
+    background-color: #FFF;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 2px solid #FF6600;   
+}
+
+.filtro-laranja:hover {
+    color: #FFF;
+    background-color:#FF6600;
+    text-decoration: none;
+}
+
+.filtro-amarelo {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    color: #F3F315;
+    font-weight: bold;
+    background-color: #FFF;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 2px solid #F3F315;   
+}
+
+.filtro-amarelo:hover {
+    color: #FFF;
+    background-color:#F3F315;
+    text-decoration: none;
+}
+
+.filtro-lilas {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    color: #C416EF;
+    font-weight: bold;
+    background-color: #FFF;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 2px solid #C416EF;   
+}
+
+.filtro-lilas:hover {
+    color: #FFF;
+    background-color:#C416EF;
+    text-decoration: none;
+}
+
+.filtro-busca {
+    display: flex;
+    margin-bottom: 100px;
+
+}
+
+.input-busca {
+    width: 800px;
+    border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.btn-busca {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; 
+    cursor: pointer;
+}
+
+.input-busca, .btn-busca {
+	outline: 0;
+    border: 1px solid #9799A6;  
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+/* Estilizando Main - Conteúdo */
+.titulo-secao {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.box-conteudo {
+    margin-right: 10px;
+}
+
+.img-conteudo {
+    width: 210px;
+    cursor: pointer;
+}
+
+.conteudo-descricao {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.link-prof {
+    margin-top: 5px;
+    color: #9799A6; 
+    font-size: 15px;
+}
+
+/*footer*/
+footer {
+    height: 280px;
+    background-color: #00474B;
+    color: #ffffff;
+    margin-top: 70px;
+}
+  
+.fa{
+    color: white;
+}
+
+
+.redes-contato, .links-faq, .parceiros {
+    margin-top: 40px;
+}
+
+.redes-contato a, .parceiros a, .links-faq a{
+    color:white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.link-contato, .link-universidade, .link-faq{
+    margin-top: 20px;
+  
+}
+
+footer h6 {
+    color: cadetblue;
+    font-size: 24px;
+    
+}
+
+.link-universidade:hover{
+    color: cadetblue;
+    font-size: 18px;
+
+}
+
+.link-faq:hover{
+    color: cadetblue;
+    font-size: 18px;
+
+}
+
+.link-contato:hover{
+    color: cadetblue;
+    font-size: 18px;
+}
+
+/* Responsividade mobile */
+
+@media(max-width: 600px) {
+
+  
+    .nav-link {
+        text-decoration: none;
+        color: rgba(104, 104, 104, 0.6);
+        background-color: #FFF;
+        padding: 10px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-radius: initial;
+        border-bottom: 1px solid #9799A6; 
+    }
+
+    .nav-link-perfil {
+        background-color: #00474B;
+        color:#ffffff;   
+    }
+
+    .input-busca {
+        width: 400px;
+    }
+
+}
+
+
+/* Pagina Perfil Professsor */
+
+.perfil-professor {
+    background-color: #F2F5F7;
+    background-size: cover;
+    height: 400px;;
+}
+
+.foto-perfil {
+    width: 200px;
+    height: 250px;
+    border-radius: 46px;
+}
+
+.nome-professor{
+    font-size: 28px;
+    text-align: left;
+    color: rgb(51, 50, 50);
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.info-professor h2{
+    font-size: 22px;
+    margin-top: 10px;
+    color:rgba(104, 104, 104)
+}
+
+.info-professor p{
+    font-size: 18px;
+    margin-top: 40px;
+    width: 500px;
+}
+
+
+.professor {
+    margin-top: 50px;
+}
+
+.conteudo {
+    margin-top: 50px;
+}
+
+.conteudo-secao {
+    margin-top: 50px;
+}
+
+
+/* Pagina Disciplinas */
+
+.img-disciplina {
+    width: 49%;
+    height: 150px;
+
+}
+
+.box-titulo-disciplina { 
+    background-color: #F2F5F7;
+    height: 200px;
+}
+
+.titulo-disciplina h1{
+    font-size: 42px;
+    color: #00474B;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.titulo-disciplina h3{
+    font-size: 32px;
+    color:rgba(104, 104, 104);
+    text-align: end;
+}
